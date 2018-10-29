@@ -1,0 +1,430 @@
+html{
+    position: relative;
+}
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+#header {
+    position: relative;
+    background-color: #d9230e;
+    height: 80px;
+    line-height: 24%;
+}
+#header .header-wrappar{
+    position: relative;
+}
+#header .header-wrappar .log{
+    position: relative;
+    display: inline-block;    
+
+}
+#header .header-wrappar .log > ul{
+    position: relative;
+    display: inline;
+    line-height: 48%;
+}
+#header .header-wrappar .log > ul > li{
+    position: relative;
+    display: inline-block;
+    
+}
+#header .header-wrappar .log > ul > li > img{
+    position: relative;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+}
+#header .header-wrappar .log > ul > li > span{
+    position: relative;
+    font-family: cursive;
+    color:#ffffff; 
+    font-size: 27px; 
+}
+#header .header-wrappar .log > ul > li > p{
+    position: relative;
+    font-family: cursive;
+    color: #ffffff;    
+}
+#header .header-wrappar .navbar{
+    position: relative;
+    float: right;
+    
+    
+}
+#header .header-wrappar .navbar > ul{
+    position: relative;
+    display: inline;
+}
+#header .header-wrappar .navbar > ul > li{
+    position: relative;
+    display: inline-block;
+    padding: 15px;
+    color: #ffffff;
+}
+#header .header-wrappar .navbar > ul > li > button{
+    position: relative;
+    display: inline-block;
+    border-radius: 10%;
+    height: 35px;
+    width: 120px;
+    color: #d9230e;
+    background-color: #ffffff;
+    
+}
+
+#header2 {
+    position: relative;
+    background-color:#c51a08;
+    height: 60px;
+    line-height: 55%;
+}
+#header2 .header2-wrappar{
+    position: relative;
+
+}
+#header2 .header2-wrappar .navbar{
+    position: relative;
+    float: left;   
+}
+#header2 .header2-wrappar .navbar > ul{
+    position: relative;
+    display: inline;
+}
+#header2 .header2-wrappar .navbar > ul > li{
+    position: relative;
+    display: inline-block;
+    padding: 26px;
+    color: #ffffff;
+}
+
+#slider{
+    position: relative;
+    background-image: url('../img/slider.jpg');
+    height: 700px;
+    width: 100%;
+}
+#slider .slider-wrapper{
+    height: 500px;
+    position: relative;    
+    
+}
+#slider .slider-wrapper .slider-heading > h2{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+   
+}
+#slider .slider-wrapper .slider-heading > hr{
+    color: #ffffff;
+    width: 47px;
+    border: 2px solid;
+    position: absolute;
+    top: 53%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+#slider .slider-wrapper .slider-para > p{
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    word-spacing: 1rem;
+    line-height: 2rem;
+}
+ 
+#slider .slider-wrapper .slider-button > button.btn1{
+    color: #ffffff;
+    font: unset;
+    height: 35px;
+    width: 170px;
+    position: absolute;
+    top: 85%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 1rem;
+    background-color: #c51a08;
+    line-height: 2rem;
+}
+#slider .slider-wrapper .slider-button > button.btn2{
+    color: #c51a08;
+    font: unset;
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 1rem;
+    
+    line-height: 2rem;
+}
+
+
+#about{
+    position: relative;    
+    height: 350px;
+    width: 100%;
+}
+#about .about-wrapper{
+    height: 200px;
+    position: relative;    
+    
+}
+#about .about-wrapper .about-heading > h2{
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 57%;
+    color: #000000;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;   
+}
+
+#about .about-wrapper .about-para > p{
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    color: #000000;   
+    
+}
+
+#about .about-wrapper .about-button > .about-btn{
+    color: #ffffff;
+    font: unset;
+    height: 35px;
+    width: 140px;
+    position: absolute;
+    top: 150%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-size: 1rem;
+    background-color: #c51a08;
+    line-height: 2rem;
+}
+
+#talk{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: inline-block;
+
+}
+#talk .talk-wrapper .talk-heading > h2{
+   position: relative;
+    text-align: center;
+    text-transform:uppercase; 
+    font-weight: bold;
+   margin-top: 63px;
+    text-transform: uppercase;
+    font-size: 1.5rem;   
+}
+
+#talk .talk-wrapper .talk-para > p{
+   position: relative;
+   text-align: center;
+    transform: translate(-2%, -50%);
+    color: #000000;   
+    
+}
+#talk .talk-wrapper .img-box{
+    position: relative;
+    padding-left: 400px;
+    float: left;
+    
+}
+ .img-box button{
+    position: relative;
+    background-color: #00ff00;
+      
+}
+
+#talk .talk-wrapper .img1-box{
+    position: relative;
+    float: left;
+    padding-left: 20px;
+   
+}
+#talk .talk-wrapper .img1-box button{
+    position: relative;
+    background-color: #00ff00;
+      
+}
+
+#talk .talk-wrapper .img2-box{
+    position: relative;
+    float: left;
+    padding-left: 20px;
+   
+}
+ .icon-para > p{
+    position: relative;
+    font-size: 11px;   
+   }
+#talk .talk-wrapper .img2-box button{
+    position: relative;    
+    background-color: #00ff00;      
+}
+#places{
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/best.jpg');
+    display: inline-block;
+}
+#places .places-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+#places .places-wrapper .places-heading h2{
+    position: relative;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+#places .places-wrapper .places-para p{
+    position: relative;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size:0.7rem;
+    word-spacing: 0.7rem;
+    line-height: 1rem;
+}
+#places .places-wrapper .places-button > button{
+    position: relative;
+    text-transform: uppercase;
+    height: 35px;
+    width: 180px;
+}
+
+#network{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+#network .network-wrapper{
+    position: relative;
+    height: 300px;
+}
+#network .network-wrapper .network-img{
+    position: relative;
+    float: left; 
+    margin-top: 40px;  
+    margin-left: 200px; 
+}
+#network .network-wrapper .network{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 67%;
+    color: #000000;
+    transform: translate(-50%, -50%);
+}
+#network .network-wrapper .network .network-heading h2{
+    position: relative;
+    text-transform: uppercase;
+}
+#network .network-wrapper .network .network-button .btn1{
+    position: relative;
+    background-color: #c51a08;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    height: 45px;    
+    width: 180px;
+}
+#network .network-wrapper .network .network-button .btn2{
+    position: relative;
+    background-color: #00ff00;
+    text-transform: uppercase;
+    font-size: 10px;
+    height: 45px;
+    font-weight: bold;
+    width: 180px;
+}
+
+#app{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-image: url('../img/app.jpg');
+}
+#app .app-wrappar{
+    position: relative;
+    margin: 0;
+}
+#app .app-wrappar .app-img{
+    position: relative;
+    display: inline-block;
+}
+#app .app-wrappar .appdta{
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    float: right;
+    margin-top: 213px;
+  
+}
+#app .app-wrappar .appdta .app-heading{
+    position: relative;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#app .app-wrappar .appdta .app-para{
+    position: relative;
+    color: #ffffff;
+    font-weight: 50px;
+    word-spacing: 0.8rem;
+}
+#app .app-wrappar .appdta .app-btn > Button{
+    position: relative;
+    height: 45px;
+    width: 137px;
+    color: #ffffff;
+    background-color: #c51a08;
+}
+#footer{
+    position: relative;
+    height: 61px;
+    width: 100%;
+    background-color: #d9230e;
+    display: inline-block;
+
+}
+#footer .footer-wrappar {
+   position: relative;
+}
+#footer .footer-wrappar .footer-para > p{
+    position: relative;
+    color: #ffffff;
+    float: right;
+    font-size: 10px;
+    line-height: 326%;
+    margin-right: 30px;
+}
+
+
+
